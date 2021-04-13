@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/applogo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/appLogo_qoute"
+        android:text="YOUR COMFORT ,OUR LIABILITY"
+        android:textSize="22dp"
+        android:textColor="#B101FD"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/appLogo"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/join_now"
+        android:text="JOIN NOW"
+        android:layout_below="@+id/appLogo_qoute"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="150dp"
+        android:textSize="30dp"
+        android:background="#ABE614B1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome_signIn"
+        android:text="sign in"
+        android:layout_below="@+id/join_now"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:background="@drawable/edit_text_login_border"
+        />
+
+</RelativeLayout>

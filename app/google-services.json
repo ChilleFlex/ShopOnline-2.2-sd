@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1008486746700",
+    "firebase_url": "https://shoponlinefin.firebaseio.com",
+    "project_id": "shoponlinefin",
+    "storage_bucket": "shoponlinefin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008486746700:android:f0dd795e75ac524b8382e9",
+        "android_client_info": {
+          "package_name": "com.example.shoponlinefin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008486746700-ls37djsos69if5t7omk2qkp4et8vemr8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shoponlinefin",
+            "certificate_hash": "0fa2a7a2a030e85187911ba2085a5b6a5233b7d9"
+          }
+        },
+        {
+          "client_id": "1008486746700-jj2rhnqjpjo8htik0o1tbvkdnovs8iur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDleZ8mo836J28fcwwaSjdhUi318TuI5Jg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008486746700-jj2rhnqjpjo8htik0o1tbvkdnovs8iur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

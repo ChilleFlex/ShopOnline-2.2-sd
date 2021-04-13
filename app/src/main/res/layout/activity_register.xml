@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_back"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcomeRegistration"
+        android:layout_marginTop="70dp"
+        android:text="WELCOME"
+        android:textColor="#ABE614B1"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameRegistration"
+        android:layout_below="@+id/welcomeRegistration"
+        android:layout_marginTop="100dp"
+        android:hint="Name"
+        android:textColorHint="#ABE614B1"
+        android:textColor="#fff"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_login_border"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneRegistration"
+        android:layout_below="@+id/nameRegistration"
+        android:layout_marginTop="10dp"
+        android:hint="Phone Number"
+        android:textColorHint="#ABE614B1"
+        android:textColor="#fff"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="10dp"
+        android:inputType="number"
+        android:background="@drawable/edit_text_login_border"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passRegistration"
+        android:layout_below="@+id/phoneRegistration"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:textColorHint="#ABE614B1"
+        android:textColor="#fff"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_login_border"
+        android:textSize="25dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/registerButton"
+        android:layout_below="@+id/passRegistration"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="#ABE614B1"
+        android:text="Register"
+        android:textSize="30dp"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:id="@+id/progressbarRegComplete" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alreadyRegisteredtext"
+        android:layout_alignParentBottom="true"
+        android:text="Already have an account? Sign in."
+        android:textColor="#ABE614B1"
+        android:textSize="15dp"
+        android:layout_marginLeft="15dp"/>
+
+</RelativeLayout>
